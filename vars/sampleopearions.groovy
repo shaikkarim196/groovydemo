@@ -1,7 +1,6 @@
 #!/usr/bin/env groovy
 
-def call() {
-a = 12
+def call(Interger a = 15) {
 b = 3
 
 echo "a =  ${a}"
