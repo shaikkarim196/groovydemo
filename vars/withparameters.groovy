@@ -1,4 +1,4 @@
-def call(int a = 15) {
+def call(String a = '15') {
   echo $a + "---" + $b
 
 echo "a =  ${a}"
