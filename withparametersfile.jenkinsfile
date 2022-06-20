@@ -1,0 +1,10 @@
+@Library('groovydemo')_
+
+ stage("Arithmetic Operations")
+ {
+     echo "Welcome to Arithmetic Operations"
+     echo a 
+     echo b
+     //withparameters 'Do it'
+     withparameters ('${a}')
+ }
