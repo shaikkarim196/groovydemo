@@ -6,5 +6,5 @@
      echo a 
      echo b
      //withparameters 'Do it'
-     withparameters ('${a}')
+     withparameters ('15')
  }
