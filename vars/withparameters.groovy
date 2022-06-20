@@ -1,4 +1,4 @@
-def call(Integer a = 15, Integer b = 3) {
+def call(int a = 15, int b = 3) {
   echo $a + "---" + $b
 
 echo "a =  ${a}"
